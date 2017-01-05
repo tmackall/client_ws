@@ -1,0 +1,27 @@
+{
+  "name": "client_ws",
+  "version": "1.0.0",
+  "description": "REST Test Client",
+  "main": "index.js",
+  "dependencies" : {
+    "assert": "latest",
+    "async": "latest",
+    "chai": "latest",
+    "chai-http": "latest",
+    "mocha": "latest",
+    "randomstring": "latest",
+    "winston": "latest"
+  },
+  "config": {
+    "ll": "debug"
+  },
+  "scripts": {
+    "test": "mocha -t 20000"
+  },
+  "keywords": [
+    "REST",
+    "test"
+  ],
+  "author": "Tom Mackall",
+  "license": "ISC"
+}
