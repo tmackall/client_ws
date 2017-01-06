@@ -13,7 +13,7 @@
     "winston": "latest"
   },
   "config": {
-    "ll": "debug"
+    "ll": "info"
   },
   "scripts": {
     "test": "mocha -t 20000"
